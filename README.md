@@ -23,12 +23,12 @@ These files have been tested and used to generate a live ELK deployment on Azure
    https://github.com/nell-e/cyberrepo/blob/main/Ansible/filebeat-playbook.yml
    
 This document contains the following details:
-Description of the Topology
-Access Policies
-ELK Configuration
-Beats in Use
-Machines Being Monitored
-How to Use the Ansible Build
+- Description of the Topology
+- Access Policies
+- ELK Configuration
+- Beats in Use
+- Machines Being Monitored
+- How to Use the Ansible Build
 
 ### Description of the Topology
 
@@ -98,9 +98,9 @@ The following screenshot displays the result of running `docker ps` after succes
   
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-web-1 10.0.0.12
-web-2 10.0.0.13
-web-3 10.0.0.17
+- web-1 10.0.0.12
+- web-2 10.0.0.13
+- web-3 10.0.0.17
 
 Installed the following Beats on these machines:
 Filebeat
@@ -122,11 +122,12 @@ SSH into the control node and follow the steps below:
 
 This is the command to run the playbook:
 
- ansible-playbook myplaybook2elk.yml
+ - ansible-playbook myplaybook2elk.yml
 
 
 Below is a sample findings from using Kibana established through the ELK server:
 
+![alt_text](https://github.com/cyberrepo/Diagrams/ELK Diagram (1).JPG)
 
 Diagram :https://drive.google.com/file/d/1MAhXze4uWWBvHWH3OTnslo7gPg6GhBkC/view?usp=sharing
 
