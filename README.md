@@ -127,7 +127,7 @@ This is the command to run the playbook:
 
 Below is a sample findings from using Kibana established through the ELK server:
 
-![alt_text](https://github.com/cyberrepo/Diagrams/ELK Diagram (1).JPG)
+ELK Diagram https://github.com/cyberrepo/Diagrams/ELKDiagram.JPG
 
 Diagram :https://drive.google.com/file/d/1MAhXze4uWWBvHWH3OTnslo7gPg6GhBkC/view?usp=sharing
 
